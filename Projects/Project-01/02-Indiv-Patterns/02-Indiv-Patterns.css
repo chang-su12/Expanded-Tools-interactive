@@ -46,3 +46,17 @@ body{
     background-image: radial-gradient(#347a23 15%,transparent 15%), linear-gradient(45deg, transparent 48%,#bfdece
         );
     }
+
+body{
+ background-color: palevioletred;
+ background-size: 100px 100px;
+ background-image:radial-gradient(#232c26 10%, transparent 40%), linear-gradient(90deg, transparent 40%,#bfdece);
+}
+
+body{
+    padding: 0px;
+    margin: 10px;
+    height: 100vh;
+    background-image:repeating-linear-gradient(20deg, yellow, red 20%
+    );
+}
