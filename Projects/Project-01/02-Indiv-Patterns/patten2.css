@@ -1,0 +1,5 @@
+body{
+ background-color: palevioletred;
+ background-size: 100px 100px;
+ background-image:radial-gradient(#232c26 10%, transparent 40%), linear-gradient(90deg, transparent 40%,#bfdece);
+}
