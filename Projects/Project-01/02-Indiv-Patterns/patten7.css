@@ -1,0 +1,357 @@
+.Green{
+    
+      box-shadow: 0 0 0 1em green,
+      0 1em 0 1em green,
+      -2.5em 1.5em 0 .5em green,
+      2.5em 1.5em 0 .5em green,
+      -3em -3em 0 0 green,
+      3em -3em 0 0 green,
+      -2em -2em 0 0 green,
+      2em -2em 0 0 green,
+      -3em -1em 0 0 green,
+      -2em -1em 0 0 green,
+      2em -1em 0 0 green,
+      3em -1em 0 0 green,
+      -4em 0 0 0 green,
+      -3em 0 0 0 green,
+      3em 0 0 0 green,
+      4em 0 0 0 green,
+      -5em 1em 0 0 green,
+      -4em 1em 0 0 green,
+      4em 1em 0 0 green,
+      5em 1em 0 0 green,
+      -5em 2em 0 0 green,
+      5em 2em 0 0  green,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: green;
+      width: 1em;
+      height: 1em;
+      margin: 50px 0px 70px 65px; 
+      
+}
+
+.Green:hover{
+    animation-name: space-rotate;
+      animation-duration: 4s;
+}
+
+@keyframes space-rotate{
+    from {transform: rotate(0deg);}
+  to {transform: rotate(180deg);}
+}      
+
+
+.container1{
+    display: flex;
+    flex-direction: row;
+     justify-content:center;
+    border-bottom-right-radius: 2000px;
+}
+
+
+}
+.container2{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.space-invader1 {
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 red,
+      -2em -1em 0 0 red,
+      2em -1em 0 0 red,
+      3em -1em 0 0 red,
+      -4em 0 0 0 red,
+      -3em 0 0 0 red,
+      3em 0 0 0 red,
+      4em 0 0 0 red,
+      -5em 1em 0 0 red,
+      -4em 1em 0 0 red,
+      4em 1em 0 0 red,
+      5em 1em 0 0 red,
+      -5em 2em 0 0 red,
+      5em 2em 0 0 red,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: green;
+      width: 10px;
+      height: 10px;
+      overflow: hidden;
+      margin:50px 0px 70px 65px;
+}
+
+.space-invadeo2{
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 red,
+      -2em -1em 0 0 red,
+      2em -1em 0 0 red,
+      3em -1em 0 0 red,
+      -4em 0 0 0 red,
+      -3em 0 0 0 red,
+      3em 0 0 0 red,
+      4em 0 0 0 red,
+      -5em 1em 0 0 red,
+      -4em 1em 0 0 red,
+      4em 1em 0 0 red,
+      5em 1em 0 0 red,
+      -5em 2em 0 0 red,
+      5em 2em 0 0 red,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: green;
+      width: 10px;
+      height: 10px;
+      overflow:hidden;
+      margin: 50px 0 50px 65px;
+}
+.space-invader3{
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 red,
+      -2em -1em 0 0 red,
+      2em -1em 0 0 red,
+      3em -1em 0 0 red,
+      -4em 0 0 0 red,
+      -3em 0 0 0 red,
+      3em 0 0 0 red,
+      4em 0 0 0 red,
+      -5em 1em 0 0 red,
+      -4em 1em 0 0 red,
+      4em 1em 0 0 red,
+      5em 1em 0 0 red,
+      -5em 2em 0 0 red,
+      5em 2em 0 0 red,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: green;
+      width: 10px;
+      height: 10px;
+      overflow: hidden;
+      margin: 50px 0 70px 65px;
+}
+.space-invader4{
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 red,
+      -2em -1em 0 0 red,
+      2em -1em 0 0 red,
+      3em -1em 0 0 red,
+      -4em 0 0 0 red,
+      -3em 0 0 0 red,
+      3em 0 0 0 red,
+      4em 0 0 0 red,
+      -5em 1em 0 0 red,
+      -4em 1em 0 0 red,
+      4em 1em 0 0 red,
+      5em 1em 0 0 red,
+      -5em 2em 0 0 red,
+      5em 2em 0 0 red,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: green;
+      width: 10px;
+      height: 10px;
+      overflow: hidden;
+      margin: 50px 0 70px 65px;
+}
+.space-invader5{
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 red,
+      -2em -1em 0 0 red,
+      2em -1em 0 0 red,
+      3em -1em 0 0 red,
+      -4em 0 0 0 red,
+      -3em 0 0 0 red,
+      3em 0 0 0 red,
+      4em 0 0 0 red,
+      -5em 1em 0 0 red,
+      -4em 1em 0 0 red,
+      4em 1em 0 0 red,
+      5em 1em 0 0 red,
+      -5em 2em 0 0 red,
+      5em 2em 0 0 red,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: green;
+      width: 10px;
+      height: 10px;
+      overflow: hidden;
+      margin: 50px 0 70px 65px;
+}
+.space-invader6{
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 red,
+      -2em -1em 0 0 red,
+      2em -1em 0 0 red,
+      3em -1em 0 0 red,
+      -4em 0 0 0 red,
+      -3em 0 0 0 red,
+      3em 0 0 0 red,
+      4em 0 0 0 red,
+      -5em 1em 0 0 red,
+      -4em 1em 0 0 red,
+      4em 1em 0 0 red,
+      5em 1em 0 0 red,
+      -5em 2em 0 0 red,
+      5em 2em 0 0 red,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: green;
+      width: 1em;
+      height: 1em;
+      overflow: hidden;
+      margin: 50px 0 70px 65px;
+      
+}
+
+.Green2{
+    
+      box-shadow: 0 0 0 1em green,
+      0 1em 0 1em green,
+      -2.5em 1.5em 0 .5em green,
+      2.5em 1.5em 0 .5em green,
+      -3em -3em 0 0 green,
+      3em -3em 0 0 green,
+      -2em -2em 0 0 green,
+      2em -2em 0 0 green,
+      -3em -1em 0 0 green,
+      -2em -1em 0 0 green,
+      2em -1em 0 0 green,
+      3em -1em 0 0 green,
+      -4em 0 0 0 green,
+      -3em 0 0 0 green,
+      3em 0 0 0 green,
+      4em 0 0 0 green,
+      -5em 1em 0 0 green,
+      -4em 1em 0 0 green,
+      4em 1em 0 0 green,
+      5em 1em 0 0 green,
+      -5em 2em 0 0 green,
+      5em 2em 0 0  green,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: green;
+      width: 100px;
+      height: 100px;
+      margin: 50px 100px 70px 65px; 
+      opacity: 0%;
+    
+}
+
+.Green2:hover{
+    animation-name: Green2;
+      animation-duration: 10s;
+   opacity: 100%;
+}
+
+@-webkit-keyframes Green2{
+0%   {background: red;}
+25%  {background: yellow;}
+50%  {background: blue;}
+100% {background: green;}
+}

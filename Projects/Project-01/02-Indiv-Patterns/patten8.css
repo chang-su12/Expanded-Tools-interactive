@@ -1,0 +1,74 @@
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pup-1{
+     width: 500px;
+     height: 500px;
+     background-color: blueviolet;
+     margin: 20px;
+}
+
+.pup-2{
+     width: 500px;
+     height: 500px;
+     background-color: greenyellow ;
+     margin: 20px;
+     position:fixed;
+     top: 500px;
+     left:500px;    
+}
+.pup-2:hover{
+    animation-name: new;
+    animation-duration: 5s;
+    opacity: 100%;
+}
+@keyframes new {
+  0%   {top: 0px; left: 0px; background: red;}
+  25%  {top: 0px; left: 100px; background: blue;}
+  50%  {top: 100px; left: 100px; background: yellow;}
+  75%  {top: 100px; left: 0px; background: green;}
+  100% {top: 0px; left: 0px; background: red;}
+}
+
+
+.pup-3{
+     width: 500px;
+     height: 500px;
+     background-color: royalblue;
+     margin: 20px;
+}
+
+.pup-4{
+     width: 500px;
+     height: 500px;
+     background-color: palevioletred;
+     margin: 20px;
+}
+
+.pup-5{
+     width: 500px;
+     height: 500px;
+     background-color: skyblue;
+     margin: 20px;
+}
