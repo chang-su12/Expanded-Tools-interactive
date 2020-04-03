@@ -1,6 +1,368 @@
 * {
 	box-sizing: border-box;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.a{
+      box-shadow: 0 0 0 1em green,
+      0 1em 0 1em green,
+      -2.5em 1.5em 0 .5em green,
+      2.5em 1.5em 0 .5em green,
+      -3em -3em 0 0 green,
+      3em -3em 0 0 green,
+      -2em -2em 0 0 green,
+      2em -2em 0 0 green,
+      -3em -1em 0 0 green,
+      -2em -1em 0 0 green,
+      2em -1em 0 0 green,
+      3em -1em 0 0 green,
+      -4em 0 0 0 green,
+      -3em 0 0 0 green,
+      3em 0 0 0 green,
+      4em 0 0 0 green,
+      -5em 1em 0 0 green,
+      -4em 1em 0 0 green,
+      4em 1em 0 0 green,
+      5em 1em 0 0 green,
+      -5em 2em 0 0 green,
+      5em 2em 0 0  green,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: red;
+      width: 1em;
+      height: 1em;
+      margin: 70px 70px 70px 70px; 
+}
+.b{
+      box-shadow: 0 0 0 1em green,
+      0 1em 0 1em green,
+      -2.5em 1.5em 0 .5em green,
+      2.5em 1.5em 0 .5em green,
+      -3em -3em 0 0 green,
+      3em -3em 0 0 green,
+      -2em -2em 0 0 green,
+      2em -2em 0 0 green,
+      -3em -1em 0 0 green,
+      -2em -1em 0 0 green,
+      2em -1em 0 0 green,
+      3em -1em 0 0 green,
+      -4em 0 0 0 green,
+      -3em 0 0 0 green,
+      3em 0 0 0 green,
+      4em 0 0 0 green,
+      -5em 1em 0 0 green,
+      -4em 1em 0 0 green,
+      4em 1em 0 0 green,
+      5em 1em 0 0 green,
+      -5em 2em 0 0 green,
+      5em 2em 0 0  green,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: red;
+      width: 1em;
+      height: 1em;
+      margin: 70px 70px 70px 70px; 
+}
+.c{
+      box-shadow: 0 0 0 1em green,
+      0 1em 0 1em green,
+      -2.5em 1.5em 0 .5em green,
+      2.5em 1.5em 0 .5em green,
+      -3em -3em 0 0 green,
+      3em -3em 0 0 green,
+      -2em -2em 0 0 green,
+      2em -2em 0 0 green,
+      -3em -1em 0 0 green,
+      -2em -1em 0 0 green,
+      2em -1em 0 0 green,
+      3em -1em 0 0 green,
+      -4em 0 0 0 green,
+      -3em 0 0 0 green,
+      3em 0 0 0 green,
+      4em 0 0 0 green,
+      -5em 1em 0 0 green,
+      -4em 1em 0 0 green,
+      4em 1em 0 0 green,
+      5em 1em 0 0 green,
+      -5em 2em 0 0 green,
+      5em 2em 0 0  green,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: red;
+      width: 1em;
+      height: 1em;
+      margin: 70px 70px 70px 70px; 
+}
+.d{
+      box-shadow: 0 0 0 1em green,
+      0 1em 0 1em green,
+      -2.5em 1.5em 0 .5em green,
+      2.5em 1.5em 0 .5em green,
+      -3em -3em 0 0 green,
+      3em -3em 0 0 green,
+      -2em -2em 0 0 green,
+      2em -2em 0 0 green,
+      -3em -1em 0 0 green,
+      -2em -1em 0 0 green,
+      2em -1em 0 0 green,
+      3em -1em 0 0 green,
+      -4em 0 0 0 green,
+      -3em 0 0 0 green,
+      3em 0 0 0 green,
+      4em 0 0 0 green,
+      -5em 1em 0 0 green,
+      -4em 1em 0 0 green,
+      4em 1em 0 0 green,
+      5em 1em 0 0 green,
+      -5em 2em 0 0 green,
+      5em 2em 0 0  green,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: red;
+      width: 1em;
+      height: 1em;
+      margin: 70px 70px 70px 70px; 
+}
+.e{
+      box-shadow: 0 0 0 1em green,
+      0 1em 0 1em green,
+      -2.5em 1.5em 0 .5em green,
+      2.5em 1.5em 0 .5em green,
+      -3em -3em 0 0 green,
+      3em -3em 0 0 green,
+      -2em -2em 0 0 green,
+      2em -2em 0 0 green,
+      -3em -1em 0 0 green,
+      -2em -1em 0 0 green,
+      2em -1em 0 0 green,
+      3em -1em 0 0 green,
+      -4em 0 0 0 green,
+      -3em 0 0 0 green,
+      3em 0 0 0 green,
+      4em 0 0 0 green,
+      -5em 1em 0 0 green,
+      -4em 1em 0 0 green,
+      4em 1em 0 0 green,
+      5em 1em 0 0 green,
+      -5em 2em 0 0 green,
+      5em 2em 0 0  green,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: red;
+      width: 1em;
+      height: 1em;
+      margin: 70px 70px 70px 70px; 
+}
+
+.f{
+      box-shadow: 0 0 0 1em green,
+      0 1em 0 1em green,
+      -2.5em 1.5em 0 .5em green,
+      2.5em 1.5em 0 .5em green,
+      -3em -3em 0 0 green,
+      3em -3em 0 0 green,
+      -2em -2em 0 0 green,
+      2em -2em 0 0 green,
+      -3em -1em 0 0 green,
+      -2em -1em 0 0 green,
+      2em -1em 0 0 green,
+      3em -1em 0 0 green,
+      -4em 0 0 0 green,
+      -3em 0 0 0 green,
+      3em 0 0 0 green,
+      4em 0 0 0 green,
+      -5em 1em 0 0 green,
+      -4em 1em 0 0 green,
+      4em 1em 0 0 green,
+      5em 1em 0 0 green,
+      -5em 2em 0 0 green,
+      5em 2em 0 0  green,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: red;
+      width: 1em;
+      height: 1em;
+      margin: 70px 70px 70px 70px; 
+}
+.g:hover{
+    animation-name: g;
+    animation-duration: 5s;
+
+   -webkit-transform: rotateY(180deg);
+}
+
+.g{
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em green,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 green,
+      -2em -1em 0 0 green,
+      2em -1em 0 0 green,
+      3em -1em 0 0 green,
+      -4em 0 0 0 green,
+      -3em 0 0 0 green,
+      3em 0 0 0 green,
+      4em 0 0 0 green,
+      -5em 1em 0 0 green,
+      -4em 1em 0 0 green,
+      4em 1em 0 0 green,
+      5em 1em 0 0 green,
+      -5em 2em 0 0 green,
+      5em 2em 0 0  green,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: red;
+      width: 1em;
+      height: 1em;
+      margin: 70px 70px 70px 70px; 
+}
+
+.g:hover{
+    animation-name: g;
+    animation-duration: 5s;
+
+   -webkit-transform: rotateY(180deg);
+}
+
+@-webkit-keyframes g {
+0%   {background: red;}
+25%  {background: yellow;}
+50%  {background: blue;}
+100% {background: green;}
+}
+
+.t{
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 green,
+      -2em -1em 0 0 green,
+      2em -1em 0 0 green,
+      3em -1em 0 0 green,
+      -4em 0 0 0 green,
+      -3em 0 0 0 green,
+      3em 0 0 0 green,
+      4em 0 0 0 green,
+      -5em 1em 0 0 green,
+      -4em 1em 0 0 green,
+      4em 1em 0 0 green,
+      5em 1em 0 0 green,
+      -5em 2em 0 0 green,
+      5em 2em 0 0  green,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 20px 0 red,
+      -1em 4em 20px 0 red,
+      1em 4em 20px 0 red,
+      2em 4em 20px 0 red;
+      background: yellow;
+      width: 50px;
+      height: 50px;
+      margin-left: 1000px;
+      margin-top: 300px;
+            
+}
+
+.t:hover{
+    animation-name: new;
+    animation-duration: 5s;
+    opacity: 100%;
+}
+@keyframes new {
+  0%   {top: 0px; left: 0px; background: red;}
+  25%  {top: 0px; left: 100px; background: blue;}
+  50%  {top: 100px; left: 100px; background: yellow;}
+  75%  {top: 100px; left: 0px; background: green;}
+  100% {top: 0px; left: 0px; background: red;}
+}
 
 body{
 

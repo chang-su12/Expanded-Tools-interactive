@@ -1,0 +1,119 @@
+.red{
+    width:200px;
+    height:200px;
+    background-color:red;
+    transition: background-color 5s ease-out,
+                boder-radius 2s ease,
+                left 2s ease;
+    -webkit-transition: background-color 5s ease-out,
+                        boder-radius 2s ease,
+                        left 2s ease;
+                
+    -moz-transition:background-color 5s ease-out;
+    
+    -ms-transition:background-color 5s ease-out;
+}
+.red:hover{
+	background-color: purple;
+	border-radius: 50%;
+	left: 500px;
+}
+
+.blue{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	border-radius: 0px;
+	transition: border-radius 2s ease 2s;
+	-webkit-transition: border-radius 2s ease 2s;
+	-moz-transition: border-radius 2s ease 2s;
+	-ms-transition: border-radius 2s ease 2s;
+}
+
+.blue:hover{
+	border-radius: 50px;
+}
+
+.blob{
+    animation-name: s;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.blob-shothand{
+    animation: s 5s ease 2s infinite alternate;
+    width: 200px;
+    height: 200px;
+    
+}
+@-webkit-keyframes s{
+    0%{
+        border-radius: 0px 0px 0px 0px;
+        background-color: coral;
+        transform: rotate(0deg);
+        top: 0%;
+        left:0%;  
+    }
+    50%{
+        border-radius: 50px 50px 0px 0px;
+        background-color: pink;
+        transform: rotate(90deg);
+        top: 50%;
+        left:50%;
+    }
+    100%{
+        
+        border-radius: 50px 50px 0px 0px;
+        background-color: teal;
+        transform: rotate(180deg);
+        top: 100%;
+        left:100%;
+    }
+    
+}
+
+.sunset{
+    width: 200px;
+    height:200px;
+    position: relative;
+    animation-name: sun;
+    animation-duration: 4s;
+    
+}
+@-webkit-keyframes sun{
+	0%{
+		background-color: red;
+		left: 0px;
+		top: 0px;
+	}
+
+	25%{
+		background-color: yellow;
+		left: 200px;
+		top: 0px;
+	}
+
+	50%{
+		background-color: orange;
+		left: 200px;
+		top: 200px;
+	}
+
+	75%{
+		background-color: blue;
+		left: 0px;
+		top: 200px;
+	}
+
+	100%{
+		background-color: purple;
+		left: 0px;
+		top: 0px;
+	}
+}
