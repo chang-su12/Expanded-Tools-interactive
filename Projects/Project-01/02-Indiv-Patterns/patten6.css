@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+.line1{
+ 
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+  transform: translate(50px, 100px)
+}
+.line2{
+    
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+  transform: translate(50px, 100px)
+}
+
+
+.line1:hover {
+  background-color: blue;
+}
+
+.line2:hover {
+  background-color: yellow;
+}
+.line3:hover {
+  background-color: red;
+}

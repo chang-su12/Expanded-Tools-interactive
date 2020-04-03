@@ -1,0 +1,51 @@
+body{
+    background-color: #211A31;
+}
+.wrap{
+     display: flex;
+     flex-direction: row;
+}
+
+.item1{
+    height: 500px;
+    width: 500px;
+    background-color: #76C323;
+}
+
+.item2{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    position:relative;
+    top:0px;
+    bottom:0px;
+}
+
+.item3{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position:relative;
+    top: 0px;   
+    right:0px;   
+}
+
+.item4{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position:relative;
+    top: 0px;   
+    right:0px;
+
+}
+.item5{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position:relative;
+    top: 0px;   
+    right:0px;
+    
+}
+
