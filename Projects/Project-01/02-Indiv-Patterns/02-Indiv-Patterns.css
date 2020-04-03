@@ -1,20 +1,20 @@
 * {
 	box-sizing: border-box;
 }
-patten1{
+.patten1{
     background-color: #4bb0b8;
     background-size: 100px 100px;
     background-image: radial-gradient(#347a23 15%,transparent 15%), linear-gradient(45deg, transparent 48%,#bfdece
         );
     }
 
-patten2{
+.patten2{
  background-color: palevioletred;
  background-size: 100px 100px;
  background-image:radial-gradient(#232c26 10%, transparent 40%), linear-gradient(90deg, transparent 40%,#bfdece);
 }
 
-patten3{
+.patten3{
     padding: 0px;
     margin: 10px;
     height: 100vh;
