@@ -1,0 +1,1831 @@
+#container{
+    display: flex;
+    height:400px;
+    justify-content:center;
+    flex-wrap:wrap;
+    
+}
+
+#A{
+ width:210px;
+ height:210px;
+
+
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;
+    
+}
+#A-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#A-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(20px, 10px);
+}
+#A-3{
+    
+    width:20px;
+    height:200px;
+    margin-left: -50px;
+    background: linear-gradient(-90deg, black, white);
+    position:absolute;
+    margin-left: 180px;
+    transform:translate(-60px)rotate(150deg);   
+}
+
+
+#B{
+ width:210px;
+ height:210px;
+ 
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;
+    
+}
+#B-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#B-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(70px, -50px)rotate(330deg);
+}
+#B-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(70px, 50px)rotate(330deg);
+}
+
+#C{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;
+    
+}
+#C-1{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -90px);
+}
+#C-2{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#C-3{
+    width:110px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(30px, 90px);
+}
+#C-4{
+    width:20px;
+    height:60px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(140px,70px);
+}
+
+#D{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;    
+}
+#D-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#D-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(70px, 0px)rotate(330deg);
+    }
+
+#E{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center; 
+}
+#E-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}  
+#E-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -90px);
+}
+#E-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -5px);
+}
+#E-4{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, 90px);
+}
+
+#F{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;
+}
+#F-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#F-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -90px);
+}
+#F-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -5px);
+}
+
+#G{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center; 
+}
+#G-1{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -90px);
+}
+#G-2{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#G-3{
+    width:110px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(30px, 90px);
+}
+#G-4{
+    width:50px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(110px, 30px);
+}
+#G-5{
+    width:20px;
+    height:60px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(140px,70px);
+}
+
+#H{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center; 
+}
+#H-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#H-2{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(150px,0px);
+}
+#H-3{
+    width:80px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -5px);
+}
+
+#I{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center; 
+}
+#I-1{
+    width:80px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -90px);
+}
+#I-2{
+    width:80px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, 90px);
+}
+#I-3{
+    width:20px;
+    height:160px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+    transform: translate(85px,0px)
+}
+
+#J{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;  
+}
+#J-1{
+    width:80px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(40px, -90px);
+}
+#J-2{
+    width:20px;
+    height:160px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+    transform: translate(85px,0px);
+}
+#J-3{
+    width:80px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(30px, 90px);
+}
+#J-4{
+    width:20px;
+    height:60px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(30px, 50px);
+}
+
+#K{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;  
+}
+#K-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#K-2{
+    width:120px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -50px)rotate(330deg);
+}
+#K-3{
+    width:130px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(40px, 40px)rotate(-300deg);
+}
+
+#L{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#L-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#L-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, 90px);
+}
+
+#M{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#M-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#M-2{
+    width:130px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(0px, 0px)rotate(-300deg);
+}
+#M-3{
+    width:130px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(80px, 0px)rotate(300deg);
+}
+#M-4{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform:  translate(190px, 0px);
+}
+
+#N{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#N-1{
+  width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+}
+#N-2{
+    width:130px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: relative;
+    transform:  translate(30px, 0px)rotate(-300deg);
+}
+#N-3{
+  width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(170px,0px);
+}
+
+#O{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#O-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+}
+#O-2{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(170px,0px);
+}
+#O-3{
+    width:30px;
+    height:100px;
+    background: linear-gradient(90deg,white, black, white);
+    position: relative;
+    transform:  translate(80px,10px);
+}
+
+#P{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#P-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#P-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(70px, -30px)rotate(330deg);
+}
+
+#Q{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#Q-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#Q-2{
+    width:20px;
+    height:120px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(170px,-40px);
+} 
+#Q-3{
+    width:30px;
+    height:100px;
+    background: linear-gradient(90deg,white, black, white);
+    position: absolute;
+    transform:  translate(80px,10px);
+}
+#Q-4{
+    width:80px;
+    height:20px;
+    background: linear-gradient(90deg,white, black, white);
+    position: absolute;
+    transform:  translate(120px, 60px)rotate(-330deg);  
+}
+
+#R{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#R-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#R-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(60px, -50px)rotate(330deg);
+}
+#R-3{
+    width:60px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(90px, 10px);
+}
+#R-4{
+    width:20px;
+    height:60px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(120px,70px);
+}
+
+#S{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#S-1{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(70px, -50px)rotate(330deg); 
+}
+#S-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: relative;
+    transform:  translate(70px, -10px)rotate(-330deg); 
+}
+#S-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(70px, 50px)rotate(330deg); 
+}
+#T{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#T-1{
+    width:120px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: relative;
+    transform:  translate(50px, -90px);
+}
+#T-2{
+    width:20px;
+    height:160px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform: translate(100px);
+}
+
+#U{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#U-1{
+    width:120px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, 90px);
+}
+#U-2{
+    width:20px;
+    height:180px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+    transform: translate(30px);
+}
+#U-3{
+    width:20px;
+    height:180px;
+    background: linear-gradient(-90deg, black, white);
+    position: absolute;
+    transform: translate(170px);
+}
+
+#V{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#V-1{
+    width:180px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: relative;
+    transform:  translate(-30px, 0px)rotate(-300deg);
+}
+#V-2{
+    width:180px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(60px, 0px)rotate(300deg);
+}
+
+#W{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+
+#X{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#X-1{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: relative;
+    transform:  translate(0px, -45px)rotate(-300deg);
+}
+#X-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(90px, -45px)rotate(-240deg);
+}
+#X-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(90px, 55px)rotate(240deg);
+}
+#X-4{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(0px, 55px)rotate(300deg);
+}
+
+#Y{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#Y-1{
+    width:20px;
+    height:100px;
+    background: linear-gradient(180deg, black, white);
+    position: relative;
+    transform: translate(100px,50px);
+}
+#Y-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(0px, -45px)rotate(-300deg);
+}
+#Y-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(120px, -45px)rotate(-240deg);
+}
+
+#Z{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#Z-1{
+    width:150px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: relative;
+    transform:  translate(0px, -90px);
+}
+#Z-2{
+    width:30px;
+    height:140px;
+    background: linear-gradient(90deg,white, black, white);
+    position: absolute;
+    transform:  translate(60px,0px)rotate(45deg);
+}
+#Z-3{
+    width:150px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(0px, 90px);
+}
+
+#1{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#1-1{
+    width:30px;
+    height:140px;
+    background: linear-gradient(90deg,white, black, white);
+    position: relative;
+    transform:translate(60px,0px)rotate(45deg);
+}
+
+
+/* Text
+/* Text
+-------------------------------------------------- */
+
+
+
+/* Image
+-------------------------------------------------- */
+
+
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+#container{
+    display: flex;
+    height:400px;
+    justify-content:center;
+    flex-wrap:wrap;
+    
+}
+
+#A{
+ width:210px;
+ height:210px;
+
+
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;
+    
+}
+#A-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#A-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(20px, 10px);
+}
+#A-3{
+    
+    width:20px;
+    height:200px;
+    margin-left: -50px;
+    background: linear-gradient(-90deg, black, white);
+    position:absolute;
+    margin-left: 180px;
+    transform:translate(-60px)rotate(150deg);   
+}
+
+
+#B{
+ width:210px;
+ height:210px;
+ 
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;
+    
+}
+#B-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#B-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(70px, -50px)rotate(330deg);
+}
+#B-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(70px, 50px)rotate(330deg);
+}
+
+#C{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;
+    
+}
+#C-1{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -90px);
+}
+#C-2{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#C-3{
+    width:110px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(30px, 90px);
+}
+#C-4{
+    width:20px;
+    height:60px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(140px,70px);
+}
+
+#D{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;    
+}
+#D-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#D-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(70px, 0px)rotate(330deg);
+    }
+
+#E{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center; 
+}
+#E-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}  
+#E-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -90px);
+}
+#E-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -5px);
+}
+#E-4{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, 90px);
+}
+
+#F{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;
+}
+#F-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#F-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -90px);
+}
+#F-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -5px);
+}
+
+#G{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center; 
+}
+#G-1{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -90px);
+}
+#G-2{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#G-3{
+    width:110px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(30px, 90px);
+}
+#G-4{
+    width:50px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(110px, 30px);
+}
+#G-5{
+    width:20px;
+    height:60px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(140px,70px);
+}
+
+#H{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center; 
+}
+#H-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#H-2{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(150px,0px);
+}
+#H-3{
+    width:80px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -5px);
+}
+
+#I{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center; 
+}
+#I-1{
+    width:80px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -90px);
+}
+#I-2{
+    width:80px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, 90px);
+}
+#I-3{
+    width:20px;
+    height:160px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+    transform: translate(85px,0px)
+}
+
+#J{
+ width:210px;
+ height:210px;
+ border-width:5px;
+ margin:auto;
+ display:flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items:center;  
+}
+#J-1{
+    width:80px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(40px, -90px);
+}
+#J-2{
+    width:20px;
+    height:160px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+    transform: translate(85px,0px);
+}
+#J-3{
+    width:80px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(30px, 90px);
+}
+#J-4{
+    width:20px;
+    height:60px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(30px, 50px);
+}
+
+#K{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;  
+}
+#K-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#K-2{
+    width:120px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(50px, -50px)rotate(330deg);
+}
+#K-3{
+    width:130px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(40px, 40px)rotate(-300deg);
+}
+
+#L{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#L-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#L-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, 90px);
+}
+
+#M{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#M-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#M-2{
+    width:130px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(0px, 0px)rotate(-300deg);
+}
+#M-3{
+    width:130px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(80px, 0px)rotate(300deg);
+}
+#M-4{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform:  translate(190px, 0px);
+}
+
+#N{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#N-1{
+  width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+}
+#N-2{
+    width:130px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: relative;
+    transform:  translate(30px, 0px)rotate(-300deg);
+}
+#N-3{
+  width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(170px,0px);
+}
+
+#O{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#O-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+}
+#O-2{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(170px,0px);
+}
+#O-3{
+    width:30px;
+    height:100px;
+    background: linear-gradient(90deg,white, black, white);
+    position: relative;
+    transform:  translate(80px,10px);
+}
+
+#P{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#P-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#P-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(70px, -30px)rotate(330deg);
+}
+
+#Q{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#Q-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#Q-2{
+    width:20px;
+    height:120px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(170px,-40px);
+} 
+#Q-3{
+    width:30px;
+    height:100px;
+    background: linear-gradient(90deg,white, black, white);
+    position: absolute;
+    transform:  translate(80px,10px);
+}
+#Q-4{
+    width:80px;
+    height:20px;
+    background: linear-gradient(90deg,white, black, white);
+    position: absolute;
+    transform:  translate(120px, 60px)rotate(-330deg);  
+}
+
+#R{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#R-1{
+    width:20px;
+    height:200px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+}
+#R-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(60px, -50px)rotate(330deg);
+}
+#R-3{
+    width:60px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(90px, 10px);
+}
+#R-4{
+    width:20px;
+    height:60px;
+    background: linear-gradient(90deg, black, white);
+    position: absolute;
+    transform: translate(120px,70px);
+}
+
+#S{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#S-1{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(70px, -50px)rotate(330deg); 
+}
+#S-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: relative;
+    transform:  translate(70px, -10px)rotate(-330deg); 
+}
+#S-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(70px, 50px)rotate(330deg); 
+}
+#T{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#T-1{
+    width:120px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: relative;
+    transform:  translate(50px, -90px);
+}
+#T-2{
+    width:20px;
+    height:160px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform: translate(100px);
+}
+
+#U{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#U-1{
+    width:120px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(50px, 90px);
+}
+#U-2{
+    width:20px;
+    height:180px;
+    background: linear-gradient(90deg, black, white);
+    position: relative;
+    transform: translate(30px);
+}
+#U-3{
+    width:20px;
+    height:180px;
+    background: linear-gradient(-90deg, black, white);
+    position: absolute;
+    transform: translate(170px);
+}
+
+#V{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#V-1{
+    width:180px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: relative;
+    transform:  translate(-30px, 0px)rotate(-300deg);
+}
+#V-2{
+    width:180px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(60px, 0px)rotate(300deg);
+}
+
+#W{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+
+#X{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#X-1{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: relative;
+    transform:  translate(0px, -45px)rotate(-300deg);
+}
+#X-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(90px, -45px)rotate(-240deg);
+}
+#X-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(90px, 55px)rotate(240deg);
+}
+#X-4{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(0px, 55px)rotate(300deg);
+}
+
+#Y{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#Y-1{
+    width:20px;
+    height:100px;
+    background: linear-gradient(180deg, black, white);
+    position: relative;
+    transform: translate(100px,50px);
+}
+#Y-2{
+    width:100px;
+    height:20px;
+    background: linear-gradient(180deg, black, white);
+    position: absolute;
+    transform:  translate(0px, -45px)rotate(-300deg);
+}
+#Y-3{
+    width:100px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(120px, -45px)rotate(-240deg);
+}
+
+#Z{
+  width:210px;
+  height:210px;
+  border-width:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+}
+#Z-1{
+    width:150px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: relative;
+    transform:  translate(0px, -90px);
+}
+#Z-2{
+    width:30px;
+    height:140px;
+    background: linear-gradient(90deg,white, black, white);
+    position: absolute;
+    transform:  translate(60px,0px)rotate(45deg);
+}
+#Z-3{
+    width:150px;
+    height:20px;
+    background: linear-gradient(0deg, black, white);
+    position: absolute;
+    transform:  translate(0px, 90px);
+}
+
+#A:hover{
+    background: linear-gradient(180deg,  black, white); 
+    }
+
+#B:hover{
+    background: linear-gradient(180deg,  black, white);
+    }   
+#C:hover{
+    background: linear-gradient(180deg,  black, white);
+    }    
+#D:hover{
+    background: linear-gradient(180deg,  black, white); 
+    }
+#E:hover{
+    background: linear-gradient(180deg,  black, white);
+    }   
+#F:hover{
+    background: linear-gradient(180deg,  black, white);
+    } 
+#G:hover{
+    background: linear-gradient(180deg,  black, white); 
+    }
+#H:hover{
+    background: linear-gradient(180deg,  black, white);
+    }   
+#I:hover{
+    background: linear-gradient(180deg,  black, white);
+    }    
+#J:hover{
+    background: linear-gradient(180deg,  black, white); 
+    }
+#K:hover{
+    background: linear-gradient(180deg,  black, white);
+    }   
+#L:hover{
+    background: linear-gradient(180deg,  black, white);
+    }    
+#M:hover{
+    background: linear-gradient(180deg,  black, white); 
+    }
+#N:hover{
+    background: linear-gradient(180deg,  black, white);
+    }   
+#O:hover{
+    background: linear-gradient(180deg,  black, white);
+    }    
+#P:hover{
+    background: linear-gradient(180deg,  black, white); 
+    }
+#Q:hover{
+    background: linear-gradient(180deg,  black, white);
+    }   
+#R:hover{
+    background: linear-gradient(180deg,  black, white);
+    }    
+#S:hover{
+    background: linear-gradient(180deg,  black, white); 
+    }
+#T:hover{
+    background: linear-gradient(180deg,  black, white);
+    }   
+#U:hover{
+    background: linear-gradient(180deg,  black, white);
+    }    
+#V:hover{
+    background: linear-gradient(180deg,  black, white); 
+    }
+#W:hover{
+    background: linear-gradient(180deg,  black, white);
+    }   
+#X:hover{
+    background: linear-gradient(180deg,  black, white);
+    }    
+#Y:hover{
+    background: linear-gradient(180deg,  black, white); 
+    }
+#Z:hover{
+    background: linear-gradient(180deg,  black, white);
+    }   
+   
+
+
+  /* text */
+
+
+  /* image */
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+   
+}
+  /* text */
+
+  /* image */
+
+}
+
+
+/* Orientation
+-------------------------------------------------- */
+
+@media (orientation: landscape) {
+
+  /* text */
+
+  /* image */
+
+}
+
+
+
+
+
