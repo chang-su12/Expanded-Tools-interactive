@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #DADADA;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+	border: solid black 5px;
+}
+.plate{
+    width:800px;
+    height:100px;
+    margin: 50px auto;
+    background: gray;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-radius:0px 0px 300px 300px;
+    border-color: gray;
+    transform: translate(0px,200px);
+    opacity: 70%;
+    
+}
+.plate1{
+    width: 150px;
+    height:250px;
+    margin: 50px auto;
+    background: gray;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 0px 0px 90px 90px;
+    border-color: gray;
+    transform: translate(300px,10px);
+    opacity: 70%;
+}
+.plate2{
+     
+    
+}
+
+
+
+.Red-pear{
+    width: 50px;
+    height:50px;
+    margin: 50px auto;
+    background: greenyellow;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px 20px 0px 0px;
+    border-color: greenyellow;
+    transform: translate(200px,-300px);
+}
+.Red-pear1{
+    width: 200px;
+    height:200px;
+    margin: 50px auto;
+    background: green;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px 20px 0px 0px;
+    border-color: green;
+    transform: translate(200px,-200px);
+}
